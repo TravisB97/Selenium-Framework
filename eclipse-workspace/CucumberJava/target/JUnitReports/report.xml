@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="6.584" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="feature to test google search funtionality" name="Validate google search is working" time="6.47">
+<system-out><![CDATA[
+Given browser is open.......................................................passed
+And user is on google search page...........................................passed
+And user rejects pop up.....................................................passed
+When user enters a text in search box.......................................passed
+And hits enter..............................................................passed
+Then user is navigated to search results....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="feature to test login functionality" name="Check login is successful with valid credentials" time="0.001">
+<system-out><![CDATA[
+Given user is on login page.................................................passed
+When user enters username and password......................................passed
+And clicks on login button..................................................passed
+Then user is navigated to the home page.....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
+hSteps.user_is_navigated_to_search_results()"},"keyword":"Then "}]}],"name":"feature to test google search funtionality","description":"","id":"feature-to-test-google-search-funtionality","keyword":"Feature","uri":"file:src/test/resources/Features/GoogleSearch.feature","tags":[]},{"line":2,"elements":[{"start_timestamp":"2023-06-13T22:51:31.267Z","line":5,"name":"Check login is successful with valid credentials","description":"","id":"feature-to-test-login-functionality;check-login-is-successful-with-valid-credentials","type":"scenario","keyword":"Scenario","steps":[{"result":{"status":"passed"},"line":6,"name":"user is on login page","match":{"location":"Steps.LoginSteps.user_is_on_login_page()"},"keyword":"Given "},{"result":{"status":"passed"},"line":7,"name":"user enters username and password","match":{"location":"Steps.LoginSteps.user_enters_username_and_password()"},"keyword":"When "},{"result":{"status":"passed"},"line":8,"name":"clicks on login button","match":{"location":"Steps.LoginSteps.clicks_on_login_button()"},"keyword":"And "},{"result":{"status":"passed"},"line":9,"name":"user is navigated to the home page","match":{"location":"Steps.LoginSteps.user_is_navigated_to_the_home_page()"},"keyword":"Then "}],"tags":[{"name":"@SmokeFeature"},{"name":"@smoketest"}]}],"name":"feature to test login functionality","description":"","id":"feature-to-test-login-functionality","keyword":"Feature","uri":"file:src/test/resources/Features/login.feature","tags":[{"name":"@SmokeFeature","type":"Tag","location":{"line":1,"column":1}}]}],"location":{"line":1,"column":1}}]}]
